@@ -1,0 +1,7 @@
+apiVersion: v2
+name: terraform-dependencies
+version: 0.1.0
+dependencies:
+  - name: alertmanager
+    version: "1.28.1"
+    repository: "https://prometheus-community.github.io/helm-charts"
